@@ -7,13 +7,16 @@ import './index.css';
 
 import Router from './Router';
 import { AuthProvider } from './Components/context/AuthContext';
+import { ToastProvider } from './Components/context/ToastContext';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <HelmetProvider>
-      <AuthProvider>
-        <RouterProvider router={Router} />
-      </AuthProvider>
+      <ToastProvider>
+        <AuthProvider>
+          <RouterProvider router={Router} />
+        </AuthProvider>
+      </ToastProvider>
     </HelmetProvider>
   </StrictMode>
 );

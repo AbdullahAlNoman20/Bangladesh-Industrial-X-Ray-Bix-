@@ -1,0 +1,10 @@
+[
+  { "id": "G001", "category": "Field Operations", "title": "Pipeline Radiography — GTCL Section-A", "type": "image", "src": "/assets/images/services/radiographic-testing.jpg", "thumbnail": "/assets/images/services/radiographic-testing.jpg" },
+  { "id": "G002", "category": "Field Operations", "title": "LPG Sphere PAUT Inspection", "type": "image", "src": "/assets/images/services/paut.jpg", "thumbnail": "/assets/images/services/paut.jpg" },
+  { "id": "G003", "category": "Field Operations", "title": "Rope Access Inspection", "type": "image", "src": "/assets/images/services/rope-access.jpg", "thumbnail": "/assets/images/services/rope-access.jpg" },
+  { "id": "G004", "category": "Equipment", "title": "Gamma Ray Machine — Delta 880", "type": "image", "src": "/assets/images/equipment/delta-880.jpg", "thumbnail": "/assets/images/equipment/delta-880.jpg" },
+  { "id": "G005", "category": "Equipment", "title": "Ultrasonic Phased Array — OMNISCAN SX", "type": "image", "src": "/assets/images/equipment/omniscan-sx.jpg", "thumbnail": "/assets/images/equipment/omniscan-sx.jpg" },
+  { "id": "G006", "category": "Certificates & Events", "title": "ISO/IEC 17025:2017 Accreditation Ceremony", "type": "image", "src": "/assets/images/certificates/iso-17025.jpg", "thumbnail": "/assets/images/certificates/iso-17025.jpg" },
+  { "id": "G007", "category": "Field Operations", "title": "Field Operations Highlight Reel", "type": "video", "src": "/assets/videos/field-operations.mp4", "thumbnail": "/assets/images/hero/video-thumb.jpg" },
+  { "id": "G008", "category": "Team", "title": "BIX Inspection Team On-Site", "type": "image", "src": "/assets/images/services/welding-inspection.jpg", "thumbnail": "/assets/images/services/welding-inspection.jpg" }
+]

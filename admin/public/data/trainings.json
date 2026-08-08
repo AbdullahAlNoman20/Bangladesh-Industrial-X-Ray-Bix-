@@ -1,0 +1,38 @@
+[
+  {
+    "id": "TR001",
+    "title": "ASNT Level I & II — Radiographic Testing (RT)",
+    "duration": "2 Weeks",
+    "level": "Level I & II",
+    "description": "Comprehensive theoretical and practical training on Radiographic Testing aligned with ASNT SNT-TC-1A guidelines.",
+    "image": "/assets/images/services/radiographic-testing.jpg",
+    "syllabus": ["Radiation physics & safety", "Film/digital radiography technique", "Image quality indicators", "Interpretation & defect evaluation"]
+  },
+  {
+    "id": "TR002",
+    "title": "ASNT Level I & II — Ultrasonic Testing (UT)",
+    "duration": "2 Weeks",
+    "level": "Level I & II",
+    "description": "Hands-on training covering conventional UT principles, calibration, scanning techniques and defect sizing.",
+    "image": "/assets/images/services/ultrasonic-testing.jpg",
+    "syllabus": ["Wave propagation theory", "Probe & instrument calibration", "Scanning techniques", "Defect evaluation & reporting"]
+  },
+  {
+    "id": "TR003",
+    "title": "Magnetic Particle & Dye Penetrant Testing (MT/PT)",
+    "duration": "1 Week",
+    "level": "Level I & II",
+    "description": "Practical training on surface NDT methods for ferromagnetic and non-ferromagnetic materials.",
+    "image": "/assets/images/services/mpi.jpg",
+    "syllabus": ["Magnetization techniques", "Penetrant application methods", "Indication interpretation", "Acceptance criteria"]
+  },
+  {
+    "id": "TR004",
+    "title": "PAUT & TOFD Advanced Training",
+    "duration": "3 Weeks",
+    "level": "Level II Advanced",
+    "description": "Advanced ultrasonic training on Phased Array and Time of Flight Diffraction techniques using OMNISCAN and PRISMA equipment.",
+    "image": "/assets/images/services/paut.jpg",
+    "syllabus": ["Phased array probe theory", "Sectorial/linear scanning", "TOFD setup & data analysis", "Weld defect sizing"]
+  }
+]
