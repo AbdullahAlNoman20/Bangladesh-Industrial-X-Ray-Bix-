@@ -57,6 +57,7 @@ const Router = createBrowserRouter([
     ],
   },
   { path: '/admin', element: <AdminLogin /> },
+  { path: 'https://bangladesh-industrial-x-ray-bix.vercel.app/admin', element: <AdminLogin /> },
   {
     path: '/admin/dashboard',
     element: (
