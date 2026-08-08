@@ -1,0 +1,25 @@
+[
+  {
+    "id": "ABOUT001",
+    "companyHistory": "Bangladesh Industrial X-Ray (B.I.X) was established in 1995 with a view to provide quality and prompt services in the field of Non-Destructive Testing. Initially the company started with just 5 personnel and limited resources.",
+    "companyOverview": "Today B.I.X has grown into a professionally managed company with a devoted workforce of over 90 personnel, operating across all sectors and all over Bangladesh. B.I.X holds the largest number of Pipeline X-Ray Crawlers in the country.",
+    "ceoName": "Md. Faisal Rahman",
+    "ceoDesignation": "Chief Executive Officer",
+    "ceoImage": "/assets/images/about/ceo.jpg",
+    "ceoMessage": "Since 1995, our philosophy has remained the same — people are our most valuable asset, and teamwork, both in-house and with our clients, is the anchor of every successful project. We continue to invest in training, technology, and safety so that every inspection we deliver upholds the trust our clients place in us.",
+    "mission": "To meet customer's satisfaction by rendering services maintaining all requisite safety, norms & standards utilizing technology-driven skilled resources to ensure QA & QC of industrial products through world-class NDT and allied methods.",
+    "vision": "To become leaders in the specialized field of Non-destructive Testing, Material Testing and related quality services by maintaining the highest industrial standards and ensuring a safe working environment.",
+    "strengths": [
+      "Largest fleet of Pipeline X-Ray Crawlers in Bangladesh",
+      "90+ ASNT-certified NDT professionals",
+      "ISO/IEC 17025:2017 BAB accredited testing laboratory",
+      "Authorized by BAERA for Radioactive Isotope & X-Ray equipment use"
+    ],
+    "achievements": [
+      "BSNDT Award 2008 for outstanding performance in NDT",
+      "Endorsed by BV, DNV-GL, RINA for marine NDT services",
+      "30+ years of continuous operation across Bangladesh"
+    ],
+    "teamIntro": "Our team comprises ASNT-certified Level II/III NDT technicians, AWS Certified Welding Inspectors, API 510/570/653 certified inspectors, and IRATA-certified rope access technicians — trained regularly to keep pace with international codes and standards."
+  }
+]

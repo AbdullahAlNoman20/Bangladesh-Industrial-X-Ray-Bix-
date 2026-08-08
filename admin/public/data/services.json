@@ -1,0 +1,510 @@
+[
+  {
+    "id": "SVC001",
+    "slug": "radiographic-testing",
+    "category": "Non-Destructive Testing",
+    "name": "Radiography Testing (X-Ray & Gamma Ray)",
+    "shortDescription": "Uses X-Ray or Gamma Ray sources to view internal structure and detect flaws with a permanent record.",
+    "image": "/assets/images/services/radiographic-testing.jpg",
+    "banner": "/assets/images/services/radiographic-testing.jpg",
+    "featured": true,
+    "introduction": "Radiographic Testing (RT) uses X-Ray or Gamma Ray (Ir-192) sources to view and assess the internal structure of an asset. RT is sensitive to corrosion, thickness changes, voids, cracks and material density changes, and can detect both surface and sub-surface defects with minimum surface preparation.",
+    "whyChooseUs": [
+      "Largest fleet of Pipeline X-Ray Crawlers in Bangladesh",
+      "ASNT-certified radiographers with decades of field experience",
+      "Strict adherence to health & safety radiation protocols",
+      "Permanent film/digital record for every inspection"
+    ],
+    "workingProcess": [
+      {
+        "step": 1,
+        "title": "Site Survey & Safety Zoning",
+        "description": "Radiation area is cordoned off and safety officer sets exclusion zone as per BAERA regulations."
+      },
+      {
+        "step": 2,
+        "title": "Source & Film Placement",
+        "description": "Test-part is placed between the radiation source and film/digital detector."
+      },
+      {
+        "step": 3,
+        "title": "Exposure",
+        "description": "Controlled exposure attenuates through material density/thickness differences."
+      },
+      {
+        "step": 4,
+        "title": "Film Processing / Digital Read",
+        "description": "Film is developed or digital image reviewed for flaws and defects."
+      },
+      {
+        "step": 5,
+        "title": "Report Issuance",
+        "description": "Certified radiographic test report issued as per applicable codes and standards."
+      }
+    ],
+    "relatedEquipmentIds": ["EQ001", "EQ002"],
+    "gallery": [
+      "/assets/images/services/radiographic-testing.jpg",
+      "/assets/images/services/digital-radiography.jpg"
+    ],
+    "previousWork": [
+      {
+        "projectName": "Bakhrabad-Meghnaghat-Haripur Gas Transmission Pipeline (Sec-A)",
+        "client": "GTCL",
+        "year": "Ongoing"
+      },
+      {
+        "projectName": "Chattogram to Dhaka Pipeline (CDPL)",
+        "client": "The 24 Engineer Construction Brigade",
+        "year": "2022-2024"
+      }
+    ]
+  },
+  {
+    "id": "SVC002",
+    "slug": "ultrasonic-testing",
+    "category": "Non-Destructive Testing",
+    "name": "Ultrasonic Testing (UT)",
+    "shortDescription": "Detects surface and sub-surface discontinuities, corrosion and cracks using ultrasonic waves.",
+    "image": "/assets/images/services/ultrasonic-testing.jpg",
+    "banner": "/assets/images/services/ultrasonic-testing.jpg",
+    "featured": true,
+    "introduction": "Conventional Ultrasonic Testing (UT) measures the propagation of mechanical vibrations through a material to examine properties, measure thickness and detect discontinuities including corrosion/erosion, flaws and cracks, supplying accurate readings on size and shape.",
+    "whyChooseUs": [
+      "Calibrated Olympus/Sonatest flaw detectors",
+      "Certified NDE Level II UT technicians",
+      "Suitable for both new construction and in-service inspection",
+      "Fast turnaround reporting"
+    ],
+    "workingProcess": [
+      {
+        "step": 1,
+        "title": "Surface Preparation",
+        "description": "Test surface cleaned and couplant applied."
+      },
+      {
+        "step": 2,
+        "title": "Probe Calibration",
+        "description": "Flaw detector calibrated against reference blocks."
+      },
+      {
+        "step": 3,
+        "title": "Scanning",
+        "description": "Probe scanned across weld/material to capture reflected signals."
+      },
+      {
+        "step": 4,
+        "title": "Defect Evaluation",
+        "description": "Signals evaluated against acceptance criteria."
+      },
+      {
+        "step": 5,
+        "title": "Report Issuance",
+        "description": "UT report with defect location, size and disposition issued."
+      }
+    ],
+    "relatedEquipmentIds": ["EQ004", "EQ005"],
+    "gallery": ["/assets/images/services/ultrasonic-testing.jpg"],
+    "previousWork": [
+      {
+        "projectName": "Bibiyana Gas Processing Plant",
+        "client": "Chevron Bangladesh Ltd.",
+        "year": "2004-2016"
+      }
+    ]
+  },
+  {
+    "id": "SVC003",
+    "slug": "ultrasonic-thickness-gauging",
+    "category": "Non-Destructive Testing",
+    "name": "Ultrasonic Thickness Gauging (UTG)",
+    "shortDescription": "Accurate wall-thickness measurement for corrosion monitoring on pipes, plates and vessels.",
+    "image": "/assets/images/services/utg.jpg",
+    "banner": "/assets/images/services/utg.jpg",
+    "featured": false,
+    "introduction": "UTG provides accurate wall-thickness measurement to monitor corrosion and erosion on piping, plates and pressure vessels, forming a core part of in-service inspection and Risk Based Inspection (RBI) programs.",
+    "whyChooseUs": [
+      "High-precision Olympus 38DL Plus gauges",
+      "Suitable for hot-tap and in-service assets",
+      "Trend/aging data for corrosion management"
+    ],
+    "workingProcess": [
+      {
+        "step": 1,
+        "title": "Grid Marking",
+        "description": "Measurement points marked per inspection plan."
+      },
+      {
+        "step": 2,
+        "title": "Coupling & Reading",
+        "description": "Gauge readings taken at each grid point."
+      },
+      {
+        "step": 3,
+        "title": "Data Compilation",
+        "description": "Readings compiled into a thickness map/report."
+      }
+    ],
+    "relatedEquipmentIds": ["EQ005"],
+    "gallery": ["/assets/images/services/utg.jpg"],
+    "previousWork": []
+  },
+  {
+    "id": "SVC004",
+    "slug": "magnetic-particle-inspection",
+    "category": "Non-Destructive Testing",
+    "name": "Magnetic Particle Inspection (MPI)",
+    "shortDescription": "Quick, cost-effective method to detect surface and near-surface discontinuities.",
+    "image": "/assets/images/services/mpi.jpg",
+    "banner": "/assets/images/services/mpi.jpg",
+    "featured": true,
+    "introduction": "In MT, the ferromagnetic material is magnetized and finely-milled iron particles coated with a dye pigment are applied. Particles cluster over discontinuities, making them visible under proper lighting conditions.",
+    "whyChooseUs": [
+      "Portable electromagnetic yokes & permanent magnets",
+      "Fast on-site turnaround",
+      "Ideal for weld root/toe crack detection"
+    ],
+    "workingProcess": [
+      {
+        "step": 1,
+        "title": "Surface Cleaning",
+        "description": "Test area cleaned of scale, oil and dirt."
+      },
+      {
+        "step": 2,
+        "title": "Magnetization",
+        "description": "Yoke or prod applies magnetic field to the part."
+      },
+      {
+        "step": 3,
+        "title": "Particle Application",
+        "description": "Magnetic ink/powder applied to reveal indications."
+      },
+      {
+        "step": 4,
+        "title": "Evaluation & Demagnetization",
+        "description": "Indications evaluated, part demagnetized after test."
+      }
+    ],
+    "relatedEquipmentIds": ["EQ006"],
+    "gallery": ["/assets/images/services/mpi.jpg"],
+    "previousWork": []
+  },
+  {
+    "id": "SVC005",
+    "slug": "dye-penetrant-testing",
+    "category": "Non-Destructive Testing",
+    "name": "Dye Penetrant Testing (DPT)",
+    "shortDescription": "Low-cost method for finding surface-breaking discontinuities on smooth, nonporous surfaces.",
+    "image": "/assets/images/services/dpt.jpg",
+    "banner": "/assets/images/services/dpt.jpg",
+    "featured": false,
+    "introduction": "PT finds surface-breaking discontinuities on relatively smooth, nonporous surfaces. It is low-cost, works on complex geometries, and requires no disassembly of the asset.",
+    "whyChooseUs": [
+      "Non-destructive to base material",
+      "Works on non-ferromagnetic materials unlike MT",
+      "Portable aerosol kits for remote sites"
+    ],
+    "workingProcess": [
+      {
+        "step": 1,
+        "title": "Pre-cleaning",
+        "description": "Surface cleaned and dried."
+      },
+      {
+        "step": 2,
+        "title": "Penetrant Application",
+        "description": "Dye penetrant applied and given dwell time."
+      },
+      {
+        "step": 3,
+        "title": "Excess Removal",
+        "description": "Excess penetrant cleaned off the surface."
+      },
+      {
+        "step": 4,
+        "title": "Developer & Inspection",
+        "description": "Developer applied; indications inspected and recorded."
+      }
+    ],
+    "relatedEquipmentIds": [],
+    "gallery": ["/assets/images/services/dpt.jpg"],
+    "previousWork": []
+  },
+  {
+    "id": "SVC006",
+    "slug": "phased-array-ultrasonic-testing",
+    "category": "Advanced NDT",
+    "name": "Phased Array Ultrasonic Testing (PAUT)",
+    "shortDescription": "Computer-controlled ultrasonic beam array for fast, highly efficient weld defect detection.",
+    "image": "/assets/images/services/paut.jpg",
+    "banner": "/assets/images/services/paut.jpg",
+    "featured": true,
+    "introduction": "PAUT uses arrays of ultrasonic beams that are computer-controlled and steered electronically, capturing hundreds of signals at once for fast, highly efficient defect detection with a permanent digital record — also used for corrosion mapping.",
+    "whyChooseUs": [
+      "OMNISCAN SX, PRISMA & PHASCON instruments",
+      "No dead-zone — detects defects at surface and in volume",
+      "Detailed depth & height positioning of defects"
+    ],
+    "workingProcess": [
+      {
+        "step": 1,
+        "title": "Weld Mapping",
+        "description": "Weld geometry and scan plan configured in the instrument."
+      },
+      {
+        "step": 2,
+        "title": "Calibration",
+        "description": "Phased array probe calibrated on reference blocks."
+      },
+      {
+        "step": 3,
+        "title": "Scanning",
+        "description": "Probe scanned along weld capturing full volumetric data."
+      },
+      {
+        "step": 4,
+        "title": "Analysis & Reporting",
+        "description": "Defects sized and reported with digital record."
+      }
+    ],
+    "relatedEquipmentIds": ["EQ003"],
+    "gallery": [
+      "/assets/images/services/paut.jpg",
+      "/assets/images/services/tofd.jpg"
+    ],
+    "previousWork": [
+      {
+        "projectName": "23m Dia LPG Tank",
+        "client": "JMI Industrial Gas Ltd.",
+        "year": "2022-2024"
+      }
+    ]
+  },
+  {
+    "id": "SVC007",
+    "slug": "time-of-flight-diffraction",
+    "category": "Advanced NDT",
+    "name": "Time of Flight Diffraction (TOFD)",
+    "shortDescription": "Advanced ultrasonic method to detect and size planar defects and cracks in welds.",
+    "image": "/assets/images/services/tofd.jpg",
+    "banner": "/assets/images/services/tofd.jpg",
+    "featured": false,
+    "introduction": "TOFD detects planar defects and cracks not perpendicular to the measured surface. Defect height is exactly determined, and the high probability of detection (POD) greatly improves risk reduction and sizing accuracy.",
+    "whyChooseUs": [
+      "High accuracy defect sizing",
+      "Fast scanning speed for long welds",
+      "Complements PAUT for full weld volume coverage"
+    ],
+    "workingProcess": [
+      {
+        "step": 1,
+        "title": "Probe Setup",
+        "description": "Transmitter/receiver probes positioned either side of weld."
+      },
+      {
+        "step": 2,
+        "title": "Scanning",
+        "description": "Probes scanned along weld length capturing diffracted signals."
+      },
+      {
+        "step": 3,
+        "title": "Sizing & Reporting",
+        "description": "Defect height/length sized and reported."
+      }
+    ],
+    "relatedEquipmentIds": ["EQ003"],
+    "gallery": ["/assets/images/services/tofd.jpg"],
+    "previousWork": []
+  },
+  {
+    "id": "SVC008",
+    "slug": "long-range-ultrasonic-testing",
+    "category": "Advanced NDT",
+    "name": "Long Range Ultrasonic Testing (LRUT)",
+    "shortDescription": "Remotely analyzes pipelines for corrosion and flaws over long distances.",
+    "image": "/assets/images/services/lrut.jpg",
+    "banner": "/assets/images/services/lrut.jpg",
+    "featured": true,
+    "introduction": "LRUT is used to remotely analyze assets for corrosion and flaws over long distances without direct contact — rapidly inspecting pipelines and piping systems with minimal insulation removal, quickly localizing cracking and corrosion damage.",
+    "whyChooseUs": [
+      "Covers long pipeline runs from a single access point",
+      "Minimal insulation removal reduces downtime",
+      "Ideal for road/river crossings & inaccessible sections"
+    ],
+    "workingProcess": [
+      {
+        "step": 1,
+        "title": "Collar Installation",
+        "description": "Transducer ring/collar installed at a single access point."
+      },
+      {
+        "step": 2,
+        "title": "Guided Wave Transmission",
+        "description": "Guided ultrasonic waves sent in both directions along the pipe."
+      },
+      {
+        "step": 3,
+        "title": "Signal Analysis",
+        "description": "Reflections analyzed to localize corrosion/defect zones."
+      }
+    ],
+    "relatedEquipmentIds": [],
+    "gallery": ["/assets/images/services/lrut.jpg"],
+    "previousWork": []
+  },
+  {
+    "id": "SVC009",
+    "slug": "positive-material-identification",
+    "category": "Advanced NDT",
+    "name": "Positive Material Identification (PMI)",
+    "shortDescription": "Identifies metal grade and alloy composition for critical plant materials.",
+    "image": "/assets/images/services/pmi.jpg",
+    "banner": "/assets/images/services/pmi.jpg",
+    "featured": false,
+    "introduction": "PMI identifies the composition of components and materials, providing grade and alloy information. Correct material verification is critical for vessels, piping, valves and pumps to avoid failure from incorrect material use.",
+    "whyChooseUs": [
+      "Handheld XRF analyzers for on-site testing",
+      "Non-destructive to the component",
+      "Essential for turnaround & procurement verification"
+    ],
+    "workingProcess": [
+      {
+        "step": 1,
+        "title": "Surface Prep",
+        "description": "Test surface lightly cleaned/ground if required."
+      },
+      {
+        "step": 2,
+        "title": "XRF Scan",
+        "description": "Analyzer scans the component to read alloy composition."
+      },
+      {
+        "step": 3,
+        "title": "Grade Reporting",
+        "description": "Material grade compared against specification and reported."
+      }
+    ],
+    "relatedEquipmentIds": [],
+    "gallery": ["/assets/images/services/pmi.jpg"],
+    "previousWork": []
+  },
+  {
+    "id": "SVC010",
+    "slug": "lifting-equipment-inspection",
+    "category": "Lifting Equipment Inspection",
+    "name": "Load Test & Visual Inspection of Lifting Equipment",
+    "shortDescription": "Thorough examination and load testing per British/International Standards.",
+    "image": "/assets/images/services/lifting-equipment.jpg",
+    "banner": "/assets/images/services/lifting-equipment.jpg",
+    "featured": false,
+    "introduction": "BIX specializes in thorough examination and testing of lifting equipment to ensure fitness for use in accordance with British Standard or other International Standards, issuing a Report of Thorough Examination upon passing inspection.",
+    "whyChooseUs": [
+      "Covers visual, NDT, function and load testing",
+      "Detailed deficiency reporting",
+      "Certified specialist inspection team"
+    ],
+    "workingProcess": [
+      {
+        "step": 1,
+        "title": "Visual Inspection",
+        "description": "Equipment visually examined for wear, damage and deformation."
+      },
+      {
+        "step": 2,
+        "title": "NDT / Function Test",
+        "description": "NDT and functional testing performed as applicable."
+      },
+      {
+        "step": 3,
+        "title": "Load Testing",
+        "description": "Load test conducted per relevant standard."
+      },
+      {
+        "step": 4,
+        "title": "Report of Thorough Examination",
+        "description": "Certificate issued once equipment passes inspection."
+      }
+    ],
+    "relatedEquipmentIds": [],
+    "gallery": ["/assets/images/services/lifting-equipment.jpg"],
+    "previousWork": []
+  },
+  {
+    "id": "SVC011",
+    "slug": "welding-inspection",
+    "category": "Welding & Painting Inspection",
+    "name": "Welding Inspection & Certification",
+    "shortDescription": "WPS/PQR review and third-party welding inspection by AWS Certified Welding Inspectors.",
+    "image": "/assets/images/services/welding-inspection.jpg",
+    "banner": "/assets/images/services/welding-inspection.jpg",
+    "featured": false,
+    "introduction": "BIX's AWS Certified Welding Inspectors (CWI) review WPS/PQR documentation, witness PQR and WPQ qualification, and perform welding inspection as a third party or client representative, issuing independent inspection reports.",
+    "whyChooseUs": [
+      "AWS Certified Welding Inspectors",
+      "Independent third-party reporting",
+      "Covers WPS/PQR review through final inspection"
+    ],
+    "workingProcess": [
+      {
+        "step": 1,
+        "title": "Document Review",
+        "description": "WPS and PQR reviewed against applicable codes."
+      },
+      {
+        "step": 2,
+        "title": "Qualification Witnessing",
+        "description": "PQR and WPQ qualification tests witnessed."
+      },
+      {
+        "step": 3,
+        "title": "In-Process Inspection",
+        "description": "Welding inspected during production as third party."
+      },
+      {
+        "step": 4,
+        "title": "Report Issuance",
+        "description": "Independent inspection report issued."
+      }
+    ],
+    "relatedEquipmentIds": [],
+    "gallery": ["/assets/images/services/welding-inspection.jpg"],
+    "previousWork": []
+  },
+  {
+    "id": "SVC012",
+    "slug": "rope-access",
+    "category": "Rope Access Services",
+    "name": "Rope Access Inspection Services",
+    "shortDescription": "IRATA-certified rope access for NDT and inspection in hard-to-reach areas.",
+    "image": "/assets/images/services/rope-access.jpg",
+    "banner": "/assets/images/services/rope-access.jpg",
+    "featured": false,
+    "introduction": "Rope access techniques enable execution of jobs that cannot be performed with traditional access methods, drastically reducing cost and time while maintaining the highest safety standards, operated under the IRATA international code of practice.",
+    "whyChooseUs": [
+      "IRATA-certified professionals",
+      "Minimizes interference with plant operations",
+      "Covers NDT, hull inspection, lifting equipment and coating inspection at height"
+    ],
+    "workingProcess": [
+      {
+        "step": 1,
+        "title": "Access Planning",
+        "description": "Rigging and access plan prepared per work location."
+      },
+      {
+        "step": 2,
+        "title": "Rope Rigging",
+        "description": "Ropes and safety systems rigged per IRATA code."
+      },
+      {
+        "step": 3,
+        "title": "Inspection Execution",
+        "description": "NDT/inspection carried out at height by rope access technicians."
+      }
+    ],
+    "relatedEquipmentIds": [],
+    "gallery": ["/assets/images/services/rope-access.jpg"],
+    "previousWork": []
+  }
+]

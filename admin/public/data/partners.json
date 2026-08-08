@@ -1,0 +1,12 @@
+[
+  { "id": "P001", "name": "Chevron Bangladesh Ltd.", "logo": "/assets/images/customers/chevron.png", "shortDescription": "", "partnershipDetails": "" },
+  { "id": "P002", "name": "Bashundhara Group", "logo": "/assets/images/customers/bashundhara-group.png", "shortDescription": "", "partnershipDetails": "" },
+  { "id": "P003", "name": "BSRM", "logo": "/assets/images/customers/bsrm.png", "shortDescription": "", "partnershipDetails": "" },
+  { "id": "P004", "name": "KAFCO", "logo": "/assets/images/customers/kafco.png", "shortDescription": "", "partnershipDetails": "" },
+  { "id": "P005", "name": "Larsen & Toubro", "logo": "/assets/images/customers/larsen-toubro.png", "shortDescription": "", "partnershipDetails": "" },
+  { "id": "P006", "name": "Siemens Energy", "logo": "/assets/images/customers/siemens-energy.png", "shortDescription": "", "partnershipDetails": "" },
+  { "id": "P007", "name": "Halliburton", "logo": "/assets/images/customers/halliburton.png", "shortDescription": "", "partnershipDetails": "" },
+  { "id": "P008", "name": "Schlumberger", "logo": "/assets/images/customers/schlumberger.png", "shortDescription": "", "partnershipDetails": "" },
+  { "id": "P009", "name": "Weatherford", "logo": "/assets/images/customers/weatherford.png", "shortDescription": "", "partnershipDetails": "" },
+  { "id": "P010", "name": "Khulna Shipyard Limited", "logo": "/assets/images/customers/khulna-shipyard.png", "shortDescription": "", "partnershipDetails": "" }
+]

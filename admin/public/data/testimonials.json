@@ -1,0 +1,5 @@
+[
+  { "id": "T001", "clientName": "Engr. Rafiqul Islam", "designation": "Project Manager, GTCL", "feedback": "BIX delivered radiography services on our pipeline project with excellent quality and full compliance to standards.", "rating": 5, "clientPhoto": "", "video": "" },
+  { "id": "T002", "clientName": "Md. Kamal Hossain", "designation": "QA/QC Head, KAFCO", "feedback": "Professional PWHT and NDT team — turnaround jobs completed on schedule every time.", "rating": 5, "clientPhoto": "", "video": "" },
+  { "id": "T003", "clientName": "S. M. Faruk", "designation": "Site Engineer, Western Marine Shipyard", "feedback": "Reliable ultrasonic thickness gauging service for our shipbuilding projects.", "rating": 4, "clientPhoto": "", "video": "" }
+]

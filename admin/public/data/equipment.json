@@ -1,0 +1,10 @@
+[
+  { "id": "EQ001", "slug": "gamma-ray-machine-delta-880", "name": "Gamma Ray Machine — Delta 880", "shortDescription": "QSA Global Inc, USA — 5 sets in fleet.", "image": "/assets/images/equipment/delta-880.jpg" },
+  { "id": "EQ002", "slug": "x-ray-machine-xxg-3505", "name": "X-Ray Machine — XXG-3505 (350KV)", "shortDescription": "Dandong Zhongyi Electronic Co. Ltd., China.", "image": "/assets/images/equipment/xxg-3505.jpg" },
+  { "id": "EQ003", "slug": "ultrasonic-phased-array-omniscan-sx", "name": "Ultrasonic Phased Array — OMNISCAN SX", "shortDescription": "Olympus NDT, Canada.", "image": "/assets/images/equipment/omniscan-sx.jpg" },
+  { "id": "EQ004", "slug": "ultrasonic-flaw-detector-epoch-6lt", "name": "Ultrasonic Flaw Detector — EPOCH 6LT", "shortDescription": "Olympus Scientific Solutions, USA.", "image": "/assets/images/equipment/epoch-6lt.jpg" },
+  { "id": "EQ005", "slug": "ultrasonic-thickness-gauge-38dl-plus", "name": "Ultrasonic Thickness Gauge — 38DL Plus", "shortDescription": "Olympus, USA — 3 sets in fleet.", "image": "/assets/images/equipment/38dl-plus.jpg" },
+  { "id": "EQ006", "slug": "electromagnetic-yoke-b310s", "name": "Electromagnetic Yoke — B310S (230V)", "shortDescription": "Parker Research Corp., USA.", "image": "/assets/images/equipment/b310s-yoke.jpg" },
+  { "id": "EQ007", "slug": "hardness-tester-mh310", "name": "Hardness Tester — MH310", "shortDescription": "LEEB, China — 5 sets in fleet.", "image": "/assets/images/equipment/mh310.jpg" },
+  { "id": "EQ008", "slug": "pwht-machine-eh-91-6", "name": "PWHT Machine — EHS-91-6 (6 Channel)", "shortDescription": "HOTFOIL-EHS, USA.", "image": "/assets/images/equipment/ehs-91-6.jpg" }
+]
