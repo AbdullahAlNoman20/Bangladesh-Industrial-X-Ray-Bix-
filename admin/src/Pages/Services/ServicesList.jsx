@@ -16,7 +16,11 @@ export default function ServicesList() {
     fetchAll('services').then(setServices);
   }, []);
 
-  const categories = useMemo(() => ['All', ...new Set(services.map((s) => s.category))], [services]);
+  const categories = useMemo(
+    () => ['All', ...new Set(services.map((s) => s.category))],
+    [services]
+  );
+
   const filtered = activeCategory === 'All' ? services : services.filter((s) => s.category === activeCategory);
 
   return (
@@ -26,7 +30,7 @@ export default function ServicesList() {
 
       <div className="mx-auto max-w-6xl px-6 py-12">
         <Breadcrumb items={[{ label: 'Services' }]} />
-        <SectionHeading eyebrow="What We Do" title="Our Services" align="left" />
+        <SectionHeading align="left" eyebrow="What We Do" title="Our Services" subtitle="Comprehensive NDT and industrial inspection services across Bangladesh." />
 
         <div className="mb-8 flex flex-wrap gap-2">
           {categories.map((cat) => (
@@ -34,8 +38,8 @@ export default function ServicesList() {
               key={cat}
               type="button"
               onClick={() => setActiveCategory(cat)}
-              className={`rounded-full px-4 py-1.5 text-sm font-medium ${
-                activeCategory === cat ? 'bg-brand text-white' : 'bg-white text-ink/60 hover:text-ink'
+              className={`rounded-full px-4 py-1.5 text-sm font-medium transition-colors ${
+                activeCategory === cat ? 'bg-brand text-white' : 'bg-white text-ink/60 hover:bg-ink/5'
               }`}
             >
               {cat}

@@ -1,10 +1,146 @@
 [
-  { "id": "EQ001", "slug": "gamma-ray-machine-delta-880", "name": "Gamma Ray Machine — Delta 880", "shortDescription": "QSA Global Inc, USA — 5 sets in fleet.", "image": "/assets/images/equipment/delta-880.jpg" },
-  { "id": "EQ002", "slug": "x-ray-machine-xxg-3505", "name": "X-Ray Machine — XXG-3505 (350KV)", "shortDescription": "Dandong Zhongyi Electronic Co. Ltd., China.", "image": "/assets/images/equipment/xxg-3505.jpg" },
-  { "id": "EQ003", "slug": "ultrasonic-phased-array-omniscan-sx", "name": "Ultrasonic Phased Array — OMNISCAN SX", "shortDescription": "Olympus NDT, Canada.", "image": "/assets/images/equipment/omniscan-sx.jpg" },
-  { "id": "EQ004", "slug": "ultrasonic-flaw-detector-epoch-6lt", "name": "Ultrasonic Flaw Detector — EPOCH 6LT", "shortDescription": "Olympus Scientific Solutions, USA.", "image": "/assets/images/equipment/epoch-6lt.jpg" },
-  { "id": "EQ005", "slug": "ultrasonic-thickness-gauge-38dl-plus", "name": "Ultrasonic Thickness Gauge — 38DL Plus", "shortDescription": "Olympus, USA — 3 sets in fleet.", "image": "/assets/images/equipment/38dl-plus.jpg" },
-  { "id": "EQ006", "slug": "electromagnetic-yoke-b310s", "name": "Electromagnetic Yoke — B310S (230V)", "shortDescription": "Parker Research Corp., USA.", "image": "/assets/images/equipment/b310s-yoke.jpg" },
-  { "id": "EQ007", "slug": "hardness-tester-mh310", "name": "Hardness Tester — MH310", "shortDescription": "LEEB, China — 5 sets in fleet.", "image": "/assets/images/equipment/mh310.jpg" },
-  { "id": "EQ008", "slug": "pwht-machine-eh-91-6", "name": "PWHT Machine — EHS-91-6 (6 Channel)", "shortDescription": "HOTFOIL-EHS, USA.", "image": "/assets/images/equipment/ehs-91-6.jpg" }
+  {
+    "id": "EQ001",
+    "slug": "gamma-ray-machine-delta-880",
+    "category": "Radiography Equipment",
+    "name": "Gamma Ray Machine — Delta 880",
+    "shortDescription": "QSA Global Inc, USA — 5 sets in fleet.",
+    "image": "/assets/images/equipment/delta-880.jpg",
+    "gallery": ["/assets/images/equipment/delta-880.jpg"],
+    "manufacturer": "QSA Global Inc, USA",
+    "modelNo": "Delta 880",
+    "quantity": "05 Sets",
+    "specifications": [
+      { "label": "Manufacturer", "value": "QSA Global Inc, USA" },
+      { "label": "Model", "value": "Delta 880" },
+      { "label": "Serial Numbers", "value": "D12486, D10031, D11150, D12150, D15730" },
+      { "label": "Quantity", "value": "05 Sets" }
+    ],
+    "relatedServiceSlugs": ["radiographic-testing"]
+  },
+  {
+    "id": "EQ002",
+    "slug": "x-ray-machine-xxg-3505",
+    "category": "Radiography Equipment",
+    "name": "X-Ray Machine — XXG-3505 (350KV)",
+    "shortDescription": "Dandong Zhongyi Electronic Co. Ltd., China.",
+    "image": "/assets/images/equipment/xxg-3505.jpg",
+    "gallery": ["/assets/images/equipment/xxg-3505.jpg"],
+    "manufacturer": "Dandong Zhongyi Electronic Co. Ltd., China",
+    "modelNo": "XXG-3505",
+    "quantity": "02 Sets (part of 14-set X-Ray fleet)",
+    "specifications": [
+      { "label": "Manufacturer", "value": "Dandong Zhongyi Electronic Co. Ltd., China" },
+      { "label": "Model", "value": "XXG-3505" },
+      { "label": "Capacity", "value": "350 KV, 5mAmp" }
+    ],
+    "relatedServiceSlugs": ["radiographic-testing"]
+  },
+  {
+    "id": "EQ003",
+    "slug": "ultrasonic-phased-array-omniscan-sx",
+    "category": "Ultrasonic Phased Array",
+    "name": "Ultrasonic Phased Array — OMNISCAN SX",
+    "shortDescription": "Olympus NDT, Canada.",
+    "image": "/assets/images/equipment/omniscan-sx.jpg",
+    "gallery": ["/assets/images/equipment/omniscan-sx.jpg"],
+    "manufacturer": "Olympus NDT, Canada",
+    "modelNo": "OMNISCAN SX",
+    "quantity": "01 Set",
+    "specifications": [
+      { "label": "Manufacturer", "value": "Olympus NDT, Canada" },
+      { "label": "Model", "value": "OMNISCAN SX" },
+      { "label": "Serial No.", "value": "QC-015432" }
+    ],
+    "relatedServiceSlugs": ["phased-array-ultrasonic-testing", "time-of-flight-diffraction"]
+  },
+  {
+    "id": "EQ004",
+    "slug": "ultrasonic-flaw-detector-epoch-6lt",
+    "category": "Ultrasonic Flaw Detector",
+    "name": "Ultrasonic Flaw Detector — EPOCH 6LT",
+    "shortDescription": "Olympus Scientific Solutions, USA.",
+    "image": "/assets/images/equipment/epoch-6lt.jpg",
+    "gallery": ["/assets/images/equipment/epoch-6lt.jpg"],
+    "manufacturer": "Olympus Scientific Solutions, USA",
+    "modelNo": "EPOCH 6LT",
+    "quantity": "01 Set",
+    "specifications": [
+      { "label": "Manufacturer", "value": "Olympus Scientific Solutions, USA" },
+      { "label": "Model", "value": "EPOCH 6LT" },
+      { "label": "Serial No.", "value": "210209901" }
+    ],
+    "relatedServiceSlugs": ["ultrasonic-testing"]
+  },
+  {
+    "id": "EQ005",
+    "slug": "ultrasonic-thickness-gauge-38dl-plus",
+    "category": "Ultrasonic Thickness Gauge",
+    "name": "Ultrasonic Thickness Gauge — 38DL Plus",
+    "shortDescription": "Olympus, USA — 3 sets in fleet.",
+    "image": "/assets/images/equipment/38dl-plus.jpg",
+    "gallery": ["/assets/images/equipment/38dl-plus.jpg"],
+    "manufacturer": "Olympus, USA",
+    "modelNo": "38DL Plus",
+    "quantity": "03 Sets",
+    "specifications": [
+      { "label": "Manufacturer", "value": "Olympus, USA" },
+      { "label": "Model", "value": "38DL Plus" },
+      { "label": "Serial Numbers", "value": "110298610, 120491208, 173104612" }
+    ],
+    "relatedServiceSlugs": ["ultrasonic-thickness-gauging"]
+  },
+  {
+    "id": "EQ006",
+    "slug": "electromagnetic-yoke-b310s",
+    "category": "Magnetic Particle Equipment",
+    "name": "Electromagnetic Yoke — B310S (230V)",
+    "shortDescription": "Parker Research Corp., USA.",
+    "image": "/assets/images/equipment/b310s-yoke.jpg",
+    "gallery": ["/assets/images/equipment/b310s-yoke.jpg"],
+    "manufacturer": "Parker Research Corp., USA",
+    "modelNo": "B310S",
+    "quantity": "02 Sets",
+    "specifications": [
+      { "label": "Manufacturer", "value": "Parker Research Corp., USA" },
+      { "label": "Model", "value": "B310S" },
+      { "label": "Voltage", "value": "230 V" }
+    ],
+    "relatedServiceSlugs": ["magnetic-particle-inspection"]
+  },
+  {
+    "id": "EQ007",
+    "slug": "hardness-tester-mh310",
+    "category": "Hardness Testing Equipment",
+    "name": "Hardness Tester — MH310",
+    "shortDescription": "LEEB, China — 5 sets in fleet.",
+    "image": "/assets/images/equipment/mh310.jpg",
+    "gallery": ["/assets/images/equipment/mh310.jpg"],
+    "manufacturer": "LEEB, China",
+    "modelNo": "MH310",
+    "quantity": "05 Sets",
+    "specifications": [
+      { "label": "Manufacturer", "value": "LEEB, China" },
+      { "label": "Model", "value": "MH310" }
+    ],
+    "relatedServiceSlugs": []
+  },
+  {
+    "id": "EQ008",
+    "slug": "pwht-machine-eh-91-6",
+    "category": "PWHT Equipment",
+    "name": "PWHT Machine — EHS-91-6 (6 Channel)",
+    "shortDescription": "HOTFOIL-EHS, USA.",
+    "image": "/assets/images/equipment/ehs-91-6.jpg",
+    "gallery": ["/assets/images/equipment/ehs-91-6.jpg"],
+    "manufacturer": "HOTFOIL-EHS, USA",
+    "modelNo": "EHS-91-6",
+    "quantity": "01 Set",
+    "specifications": [
+      { "label": "Manufacturer", "value": "HOTFOIL-EHS, USA" },
+      { "label": "Model", "value": "EHS-91-6" },
+      { "label": "Type", "value": "Resistance Type, 6 Channel" }
+    ],
+    "relatedServiceSlugs": []
+  }
 ]

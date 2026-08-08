@@ -1,0 +1,28 @@
+[
+  {
+    "id": "ABOUT001",
+    "companyHistory": "Bangladesh Industrial X-Ray (B.I.X) was established in 1995 with a vision to provide quality and prompt services in the field of Non-Destructive Testing. Starting with just 5 personnel and limited resources, BIX has grown into a professionally managed company with a devoted workforce of over 90 personnel, extending operations across all sectors and all over Bangladesh.",
+    "companyOverview": "BIX is a proprietorship company and a proud leader in NDT services in Bangladesh, holding the largest number of Pipeline X-Ray Crawlers in the country. BIX believes human resources are the most valuable asset, with personnel receiving rigorous, regular training in NDT methods and ASNT-aligned certification.",
+    "ceoMessage": "Since our founding in 1995, our philosophy has remained the same — teamwork, both in-house and with our customers, is the anchor for successful project completion. We are committed to Total Customer Satisfaction through Excellent Services, and we look forward to a long, fulfilling association with every client we serve.",
+    "ceoName": "Md. Faisal Rahman",
+    "ceoDesignation": "Chief Executive Officer",
+    "ceoImage": "/assets/images/about/ceo.jpg",
+    "mission": "To meet customer's satisfaction by rendering services maintaining all requisite safety, norms & standards utilizing technology-driven skilled resources to ensure QA & QC of industrial products through the application of world-class Non-Destructive Testing & other allied methods, Data Collection, Management & Analysis Protocols with professional integrity & reliability.",
+    "vision": "To become leaders in the specialized field of Non-destructive Testing, Material Testing and related quality services by maintaining highest industrial standards, ensuring safe working environment, and professional services fulfilling customer satisfaction through innovation, experience and state-of-the-art technology.",
+    "strengths": [
+      "90+ trained and certified NDT personnel",
+      "Largest fleet of Pipeline X-Ray Crawlers in Bangladesh",
+      "ISO/IEC 17025:2017 BAB Accredited Testing Laboratory",
+      "BAERA licensed for Industrial Radiography, Isotope Transport & Import/Export",
+      "Endorsed by BV, DNV-GL and RINA for marine NDT services"
+    ],
+    "achievements": [
+      { "id": "ACH001", "year": "2008", "title": "BSNDT Award 2008", "description": "Recognized by the Bangladesh Society of Non Destructive Testing for outstanding performance in NDT." },
+      { "id": "ACH002", "year": "2024", "title": "ISO/IEC 17025:2017 Re-accreditation", "description": "Re-accredited by the Bangladesh Accreditation Board (BAB) through 2027." }
+    ],
+    "team": [
+      { "id": "TM001", "name": "Md. Faisal Rahman", "designation": "Chief Executive Officer", "photo": "/assets/images/about/team-faisal.jpg" },
+      { "id": "TM002", "name": "Shuvo Alam", "designation": "Director of Operations", "photo": "/assets/images/about/team-shuvo.jpg" }
+    ]
+  }
+]

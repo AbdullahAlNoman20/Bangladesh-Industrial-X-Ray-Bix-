@@ -1,0 +1,67 @@
+[
+  {
+    "id": "PRJ001",
+    "slug": "gtcl-bakhrabad-meghnaghat-haripur-pipeline",
+    "title": "Bakhrabad-Meghnaghat-Haripur Gas Transmission Pipeline (Section-A)",
+    "client": "Gas Transmission Company Ltd. (GTCL)",
+    "sector": "Gas Transmission & Distribution",
+    "year": "Ongoing",
+    "location": "Bakhrabad to East Side of Kathalia River",
+    "servicesProvided": ["Radiography by Using X-Ray Crawler & Gamma Ray"],
+    "description": "Provided NDT services for construction of a 42\" OD X 1000 PSIG gas transmission pipeline (approx. 16 km) under the Bakhrabad-Meghnaghat-Haripur Gas Transmission Pipeline Project.",
+    "coverImage": "/assets/images/services/radiographic-testing.jpg",
+    "gallery": ["/assets/images/services/radiographic-testing.jpg"]
+  },
+  {
+    "id": "PRJ002",
+    "slug": "kafco-turnaround-2022",
+    "title": "KAFCO Turnaround 2022",
+    "client": "Karnafuli Fertilizer Company Ltd. (KAFCO)",
+    "sector": "Fertilizer Factory",
+    "year": "2022",
+    "location": "Chattogram, Bangladesh",
+    "servicesProvided": ["RT", "MPI", "DPT", "PWHT"],
+    "description": "Delivered radiographic testing, magnetic particle inspection, dye penetrant testing and post weld heat treatment services during KAFCO's plant turnaround.",
+    "coverImage": "/assets/images/services/pwht.jpg",
+    "gallery": ["/assets/images/services/pwht.jpg"]
+  },
+  {
+    "id": "PRJ003",
+    "slug": "jmi-lpg-tank-barobkunda",
+    "title": "JMI Industrial Gas LPG Tank Project",
+    "client": "JMI Industrial Gas Ltd.",
+    "sector": "LPG Plant & Refinery",
+    "year": "2022–2024",
+    "location": "Barobkunda, Chittagong",
+    "servicesProvided": ["PAUT", "RT", "MT", "PT"],
+    "description": "NDT services for two 23m dia LPG tanks including Phased Array Ultrasonic Testing, radiographic and magnetic particle inspection.",
+    "coverImage": "/assets/images/services/paut.jpg",
+    "gallery": ["/assets/images/services/paut.jpg"]
+  },
+  {
+    "id": "PRJ004",
+    "slug": "matarbari-ultra-super-critical-power-plant",
+    "title": "Matarbari 2X600MW Ultra Super Critical Coal Fired Power Plant",
+    "client": "Bangladesh Power Development Board (BPDB)",
+    "sector": "Power Plant",
+    "year": "2021–2023",
+    "location": "Matarbari, Cox's Bazar",
+    "servicesProvided": ["RT", "MT", "PT", "UT", "PAUT", "PWHT"],
+    "description": "Provided comprehensive NDT services for one of Bangladesh's largest power infrastructure projects, contracted through Jurong Engineering Limited.",
+    "coverImage": "/assets/images/services/ultrasonic-testing.jpg",
+    "gallery": ["/assets/images/services/ultrasonic-testing.jpg"]
+  },
+  {
+    "id": "PRJ005",
+    "slug": "western-marine-shipyard-oil-tankers",
+    "title": "Western Marine Shipyard — Oil Tanker & Vessel Series",
+    "client": "Western Marine Service Ltd.",
+    "sector": "Marine & Shipbuilding",
+    "year": "Multi-year",
+    "location": "Chattogram, Bangladesh",
+    "servicesProvided": ["Radiographic Test", "Ultrasonic Test"],
+    "description": "Long-standing NDT partner for hull and structural inspection across multiple vessel series including M.T. Kandary and the Grona series.",
+    "coverImage": "/assets/images/services/welding-inspection.jpg",
+    "gallery": ["/assets/images/services/welding-inspection.jpg"]
+  }
+]

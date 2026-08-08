@@ -65,10 +65,12 @@ export async function resetResource(resource) {
 }
 
 export const RESOURCES = Object.freeze({
+  ABOUT: 'about',
   SERVICES: 'services',
   EQUIPMENT: 'equipment',
   CERTIFICATIONS: 'certifications',
   GALLERY: 'galleryItems',
+  CONTACT_SUBMISSIONS: 'contactSubmissions',
   PROJECTS: 'projects',
   TRAININGS: 'trainings',
   PARTNERS: 'partners',
@@ -79,3 +81,10 @@ export const RESOURCES = Object.freeze({
   SOCIAL_LINKS: 'socialLinks',
   ADMIN: 'admin',
 });
+
+export const GALLERY_CATEGORIES = Object.freeze([
+  'Field Operations',
+  'Equipment',
+  'Certificates & Events',
+  'Team',
+]);
