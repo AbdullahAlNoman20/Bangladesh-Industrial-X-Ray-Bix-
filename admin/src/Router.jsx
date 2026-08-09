@@ -1,97 +1,128 @@
 // FILE: admin/src/Router.jsx
-import { createBrowserRouter, Navigate } from "react-router-dom";
+import { lazy, Suspense } from 'react';
+import { createBrowserRouter, Navigate } from 'react-router-dom';
 
-import Root from "./Root";
-import Home from "./Pages/Home/Home";
-import About from "./Pages/About/About";
-import ServicesList from "./Pages/Services/ServicesList";
-import ServiceDetail from "./Pages/Services/ServiceDetail";
-import EquipmentList from "./Pages/Equipment/EquipmentList";
-import EquipmentDetail from "./Pages/Equipment/EquipmentDetail";
-import Certifications from "./Pages/Certifications/Certifications";
-import Gallery from "./Pages/Gallery/Gallery";
-import GalleryCategory from "./Pages/Gallery/GalleryCategory";
-import ProjectsList from "./Pages/Projects/ProjectsList";
-import ProjectDetail from "./Pages/Projects/ProjectDetail";
-import Training from "./Pages/Training/Training";
-import Partners from "./Pages/Partners/Partners";
-import Testimonials from "./Pages/Testimonials/Testimonials";
-import Contact from "./Pages/Contact/Contact";
-import NotFound from "./Components/Shared/NotFound";
-import Forbidden from "./Components/Shared/Forbidden";
-import ErrorPage from "./Components/Shared/ErrorPage";
-import Maintenance from "./Components/Shared/Maintenance";
-import ComingSoon from "./Components/Shared/ComingSoon";
-import ProtectedRoute from "./Components/Shared/ProtectedRoute";
-import AdminLogin from "./Pages/Admin/AdminLogin";
-import AdminLayout from "./Components/layout/AdminLayout";
-import DashboardHome from "./Pages/Admin/Dashboard/DashboardHome";
-import ServicesTable from "./Pages/Admin/Dashboard/Services/ServicesTable";
-import ServiceForm from "./Pages/Admin/Dashboard/Services/ServiceForm";
+import Root from './Root';
+import LoadingScreen from './Components/Shared/LoadingScreen';
+import NotFound from './Components/Shared/NotFound';
+import Forbidden from './Components/Shared/Forbidden';
+import ErrorPage from './Components/Shared/ErrorPage';
+import Maintenance from './Components/Shared/Maintenance';
+import ProtectedRoute from './Components/Shared/ProtectedRoute';
+import AdminLayout from './Components/layout/AdminLayout';
+
+// ---- Public Pages (lazy) ----
+const Home = lazy(() => import('./Pages/Home/Home'));
+const About = lazy(() => import('./Pages/About/About'));
+const ServicesList = lazy(() => import('./Pages/Services/ServicesList'));
+const ServiceDetail = lazy(() => import('./Pages/Services/ServiceDetail'));
+const EquipmentList = lazy(() => import('./Pages/Equipment/EquipmentList'));
+const EquipmentDetail = lazy(() => import('./Pages/Equipment/EquipmentDetail'));
+const Certifications = lazy(() => import('./Pages/Certifications/Certifications'));
+const Gallery = lazy(() => import('./Pages/Gallery/Gallery'));
+const GalleryCategory = lazy(() => import('./Pages/Gallery/GalleryCategory'));
+const ProjectsList = lazy(() => import('./Pages/Projects/ProjectsList'));
+const ProjectDetail = lazy(() => import('./Pages/Projects/ProjectDetail'));
+const Training = lazy(() => import('./Pages/Training/Training'));
+const Partners = lazy(() => import('./Pages/Partners/Partners'));
+const Testimonials = lazy(() => import('./Pages/Testimonials/Testimonials'));
+const Contact = lazy(() => import('./Pages/Contact/Contact'));
+
+// ---- Admin (lazy) ----
+const AdminLogin = lazy(() => import('./Pages/Admin/AdminLogin'));
+const DashboardHome = lazy(() => import('./Pages/Admin/Dashboard/DashboardHome'));
+const HomeContentForm = lazy(() => import('./Pages/Admin/Dashboard/Home/HomeContentForm'));
+const AboutForm = lazy(() => import('./Pages/Admin/Dashboard/About/AboutForm'));
+const ServicesTable = lazy(() => import('./Pages/Admin/Dashboard/Services/ServicesTable'));
+const ServiceForm = lazy(() => import('./Pages/Admin/Dashboard/Services/ServiceForm'));
+const EquipmentTable = lazy(() => import('./Pages/Admin/Dashboard/Equipment/EquipmentTable'));
+const EquipmentForm = lazy(() => import('./Pages/Admin/Dashboard/Equipment/EquipmentForm'));
+const CertificationsTable = lazy(() => import('./Pages/Admin/Dashboard/Certifications/CertificationsTable'));
+const CertificationForm = lazy(() => import('./Pages/Admin/Dashboard/Certifications/CertificationForm'));
+const GalleryTable = lazy(() => import('./Pages/Admin/Dashboard/Gallery/GalleryTable'));
+const ProjectsTable = lazy(() => import('./Pages/Admin/Dashboard/Projects/ProjectsTable'));
+const ProjectForm = lazy(() => import('./Pages/Admin/Dashboard/Projects/ProjectForm'));
+const TrainingTable = lazy(() => import('./Pages/Admin/Dashboard/Training/TrainingTable'));
+const TrainingForm = lazy(() => import('./Pages/Admin/Dashboard/Training/TrainingForm'));
+const PartnersTable = lazy(() => import('./Pages/Admin/Dashboard/Partners/PartnersTable'));
+const TestimonialsTable = lazy(() => import('./Pages/Admin/Dashboard/Testimonials/TestimonialsTable'));
+const ContactInfoForm = lazy(() => import('./Pages/Admin/Dashboard/Contact/ContactInfoForm'));
+const ContactSubmissions = lazy(() => import('./Pages/Admin/Dashboard/Contact/ContactSubmissions'));
+const SeoSettingsForm = lazy(() => import('./Pages/Admin/Dashboard/Seo/SeoSettingsForm'));
+const SocialLinksTable = lazy(() => import('./Pages/Admin/Dashboard/SocialLinks/SocialLinksTable'));
+
+// প্রতিটা lazy element কে Suspense দিয়ে র‍্যাপ করে LoadingScreen দেখানোর হেল্পার
+const withSuspense = (Component) => (
+  <Suspense fallback={<LoadingScreen />}>
+    <Component />
+  </Suspense>
+);
 
 const Router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <Root />,
     errorElement: <ErrorPage />,
     children: [
-      { index: true, element: <Home /> },
-      { path: "about", element: <About /> },
-      { path: "services", element: <ServicesList /> },
-      { path: "services/:slug", element: <ServiceDetail /> },
-      { path: "equipment", element: <EquipmentList /> },
-      { path: "equipment/:slug", element: <EquipmentDetail /> },
-      { path: "certifications", element: <Certifications /> },
-      { path: "gallery", element: <Gallery /> },
-      { path: "gallery/:category", element: <GalleryCategory /> },
-      { path: "projects", element: <ProjectsList /> },
-      { path: "projects/:slug", element: <ProjectDetail /> },
-      { path: "training", element: <Training /> },
-      { path: "partners", element: <Partners /> },
-      { path: "testimonials", element: <Testimonials /> },
-      { path: "contact", element: <Contact /> },
-      { path: "403", element: <Forbidden /> },
-      { path: "maintenance", element: <Maintenance /> },
-      { path: "*", element: <NotFound /> },
+      { index: true, element: withSuspense(Home) },
+      { path: 'about', element: withSuspense(About) },
+      { path: 'services', element: withSuspense(ServicesList) },
+      { path: 'services/:slug', element: withSuspense(ServiceDetail) },
+      { path: 'equipment', element: withSuspense(EquipmentList) },
+      { path: 'equipment/:slug', element: withSuspense(EquipmentDetail) },
+      { path: 'certifications', element: withSuspense(Certifications) },
+      { path: 'gallery', element: withSuspense(Gallery) },
+      { path: 'gallery/:category', element: withSuspense(GalleryCategory) },
+      { path: 'projects', element: withSuspense(ProjectsList) },
+      { path: 'projects/:slug', element: withSuspense(ProjectDetail) },
+      { path: 'training', element: withSuspense(Training) },
+      { path: 'partners', element: withSuspense(Partners) },
+      { path: 'testimonials', element: withSuspense(Testimonials) },
+      { path: 'contact', element: withSuspense(Contact) },
+      { path: '403', element: <Forbidden /> },
+      { path: 'maintenance', element: <Maintenance /> },
+      { path: '*', element: <NotFound /> },
     ],
   },
-  { path: "/admin", element: <AdminLogin /> },
+
+  { path: '/admin', element: withSuspense(AdminLogin) },
   {
-    path: "/admin/dashboard",
+    path: '/admin/dashboard',
     element: (
       <ProtectedRoute redirectTo="/admin">
         <AdminLayout />
       </ProtectedRoute>
     ),
     children: [
-      { index: true, element: <DashboardHome /> },
-      { path: "home", element: <ComingSoon title="Home Page CMS" /> },
-      { path: "about", element: <ComingSoon title="About CMS" /> },
-      { path: "services", element: <ServicesTable /> },
-      { path: "services/new", element: <ServiceForm /> },
-      { path: "services/:id/edit", element: <ServiceForm /> },
-      { path: "equipment", element: <ComingSoon title="Equipment CMS" /> },
-      {
-        path: "certifications",
-        element: <ComingSoon title="Certifications CMS" />,
-      },
-      { path: "gallery", element: <ComingSoon title="Gallery CMS" /> },
-      { path: "projects", element: <ComingSoon title="Projects CMS" /> },
-      { path: "training", element: <ComingSoon title="Training CMS" /> },
-      { path: "partners", element: <ComingSoon title="Partners CMS" /> },
-      {
-        path: "testimonials",
-        element: <ComingSoon title="Testimonials CMS" />,
-      },
-      { path: "contact", element: <ComingSoon title="Contact CMS" /> },
-      { path: "seo", element: <ComingSoon title="SEO Settings" /> },
-      {
-        path: "social-links",
-        element: <ComingSoon title="Social Links CMS" />,
-      },
+      { index: true, element: withSuspense(DashboardHome) },
+      { path: 'home', element: withSuspense(HomeContentForm) },
+      { path: 'about', element: withSuspense(AboutForm) },
+      { path: 'services', element: withSuspense(ServicesTable) },
+      { path: 'services/new', element: withSuspense(ServiceForm) },
+      { path: 'services/:id/edit', element: withSuspense(ServiceForm) },
+      { path: 'equipment', element: withSuspense(EquipmentTable) },
+      { path: 'equipment/new', element: withSuspense(EquipmentForm) },
+      { path: 'equipment/:id/edit', element: withSuspense(EquipmentForm) },
+      { path: 'certifications', element: withSuspense(CertificationsTable) },
+      { path: 'certifications/new', element: withSuspense(CertificationForm) },
+      { path: 'certifications/:id/edit', element: withSuspense(CertificationForm) },
+      { path: 'gallery', element: withSuspense(GalleryTable) },
+      { path: 'projects', element: withSuspense(ProjectsTable) },
+      { path: 'projects/new', element: withSuspense(ProjectForm) },
+      { path: 'projects/:id/edit', element: withSuspense(ProjectForm) },
+      { path: 'training', element: withSuspense(TrainingTable) },
+      { path: 'training/new', element: withSuspense(TrainingForm) },
+      { path: 'training/:id/edit', element: withSuspense(TrainingForm) },
+      { path: 'partners', element: withSuspense(PartnersTable) },
+      { path: 'testimonials', element: withSuspense(TestimonialsTable) },
+      { path: 'contact', element: withSuspense(ContactInfoForm) },
+      { path: 'contact-submissions', element: withSuspense(ContactSubmissions) },
+      { path: 'seo', element: withSuspense(SeoSettingsForm) },
+      { path: 'social-links', element: withSuspense(SocialLinksTable) },
     ],
   },
-  { path: "*", element: <Navigate to="/404" replace /> },
+
+  { path: '*', element: <Navigate to="/404" replace /> },
 ]);
 
 export default Router;

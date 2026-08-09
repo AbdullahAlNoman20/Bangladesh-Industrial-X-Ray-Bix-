@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { NAV_LINKS } from './constants/navLinks';
-import logo from '../assets/Texco_Tech_Logo.png';
+import logo from '../../src/assets/BixLogo.jpg';
 
 export default function Nav() {
   const [open, setOpen] = useState(false);
@@ -11,7 +11,7 @@ export default function Nav() {
     <header className="sticky top-0 z-30 border-b border-ink/5 bg-white/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3">
         <Link to="/" className="flex items-center gap-2" aria-label="BIX Home">
-          <img src={logo} alt="Bangladesh Industrial X-Ray" className="h-9" />
+          <img src={logo} alt="Bangladesh Industrial X-Ray" className="h-9" fetchPriority="high" />
         </Link>
 
         <nav className="hidden items-center gap-5 lg:flex">

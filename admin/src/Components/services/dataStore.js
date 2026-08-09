@@ -65,6 +65,7 @@ export async function resetResource(resource) {
 }
 
 export const RESOURCES = Object.freeze({
+  HOME_CONTENT: 'homeContent',
   ABOUT: 'about',
   SERVICES: 'services',
   EQUIPMENT: 'equipment',
