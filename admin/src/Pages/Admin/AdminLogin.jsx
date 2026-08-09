@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { useNavigate, useLocation, Navigate } from "react-router-dom";
 import { useAuth } from "../../Components/hooks/useAuth";
-import logo from "../../assets/Texco_Tech_Logo.png";
+import logo from "../../assets/BixLogo.jpg";
 
 // SRS §14 — শুধুমাত্র development-এ সাহায্যকারী প্যানেল, ডেলিভারির আগে এই কনস্ট্যান্টটি বাদ দিতে হবে।
 const DEV_HINT = import.meta.env.DEV

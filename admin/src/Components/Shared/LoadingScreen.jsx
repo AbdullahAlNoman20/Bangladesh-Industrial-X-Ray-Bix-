@@ -1,5 +1,5 @@
 // FILE: admin/src/Components/Shared/LoadingScreen.jsx
-import logo from '../../assets/Texco_Tech_Logo.png';
+import logo from "../../assets/BixLogo.jpg";
 
 export default function LoadingScreen() {
   return (
